@@ -7,6 +7,7 @@ body {
     border-radius: 0px 70px 0px 70px;
 }
 .profile {
+  padding-top: 10px;
     height: 300px;
     width: 1200px;
     margin-right: auto;
@@ -14,10 +15,12 @@ body {
     background-color: white;
     border-radius: 20px 20px 20px 20px;
 }
-.profile p{
+.p-title p{
     font-size: 45px;
 }
-.profile pre{
+.profile {
+  padding-left: 0px;
+  line-height: 20px;
     font-size: 30px;
 }
 .main {
