@@ -1,44 +1,48 @@
+html{
+    box-sizing: border-box;
+}
 body {
-    margin:0;
+    width:1300px;
+    margin: 0 auto;
     background-color: rgb(231, 220, 170);
 }
 .header {
     height: 150px;
-    border-radius: 0px 70px 0px 70px;
 }
 .profile {
-  padding-top: 10px;
-    height: 300px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left : auto;
+    height: auto;
+    min-height: 450px;
+    width: 1300px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
-}
-.p-title p{
-    font-size: 45px;
-}
-.profile {
-  padding-left: 0px;
-  line-height: 20px;
-    font-size: 30px;
+    padding: 0px;
 }
 .main {
-    text-align: center;
-    height: 2000px;
-    width: 1200px;
-    margin-right: auto;
-    margin-left : auto;
+    height: auto;
+    min-height: 1000px;
+    width: 1300px;
+    margin-top: 10px;
     background-color: #FFD066;
     border-radius: 20px 20px 20px 20px;
 }
 .footer {
-    height: 80px;
+    height: 70px;
+    width: auto;
     background-color: black;
 }
-.header-logo {
+
+h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.profile-text {
+    padding-left: 20px;
+    font-size: 30px;
+}
+.header h1{
+    position: absolute;
     float: left;
-    font-size: 90px;
+    font-size: 60px;
     font-family: sans-serif;
     color: gray;
 }
@@ -51,9 +55,11 @@ body {
 .main p{
     font-size: 80px;
     font-family: serif;
+    text-align: center;
 }
 .work {
     font-size: 50px;
+    text-align: center;
 }
 .work img{
     width: 50%;
