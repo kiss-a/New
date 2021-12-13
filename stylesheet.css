@@ -11,8 +11,9 @@ body {
     margin: 0 auto;
 }
 .header {
+    text-align: right;
     height: 100px;
-    width: auto;
+    //width: 0 auto;
     background-color: rgba(225, 225, 225, 0.95)
 }
 .side {
@@ -66,6 +67,7 @@ h2 {
     float: right;
     font-size: 30px;
     margin: 30px;
+    line-height: 100px;
 }
 .header-list {
     float: right;
