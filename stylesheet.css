@@ -36,7 +36,6 @@ body {
     width: auto;
     background-color: black;
 }
-  
 h2 {
     font-size: 40px;
     font-family: sans-serif;
@@ -52,6 +51,12 @@ h2 {
     font-size: 60px;
     font-family: sans-serif;
     color: gray;
+}
+.header a{
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 30px;
+    margin: 30px;
 }
 .header-list {
     float: right;
@@ -69,6 +74,14 @@ h2 {
     text-align: center;
 }
 .work img{
+    width: 70%;
+    height: auto;
+}
+.work2 {
+    font-size: 50px;
+    text-align: center;
+}
+.work2 img{
     width: 70%;
     height: auto;
 }
